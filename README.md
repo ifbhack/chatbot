@@ -4,7 +4,7 @@ https://towardsdatascience.com/how-to-create-a-chatbot-with-python-deep-learning
 
 
 ## JSON
-The JSON file should be formatted like this to add new content:
+The JSON file should be formatted like this to add new responses:
 ```json
     {"tag": "NAME OF THE CATEGORY OF RESPONSE",
         "patterns": [TYPES OF INPUTS],
@@ -16,6 +16,7 @@ Sample:
     {"tag": "goodbye",
         "patterns": ["Bye", "See you later", "Goodbye", "Until next time"],
         "responses": ["It was nice talking with you!", "Bye!", "Goodbye!"]
+    },
 ```
 
 ## Training.py
