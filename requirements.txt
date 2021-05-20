@@ -1,1 +1,14 @@
+There should only be 4 required packages. This was run on Python Ver 3.9.
+PIP does not work unfortunately so I cannot gen the normal requirements.txt, this will have to do:
 
+Installing Numpy:
+python -m pip install numpy
+
+Installing Keras:
+python -m pip install Keras
+
+Installing nltk: 
+python -m pip install nltk
+
+Installing tensorflow:
+python -m pip install tensorflow
