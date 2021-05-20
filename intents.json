@@ -1,0 +1,23 @@
+{"intents": [
+    {"tag": "greeting",
+        "patterns": ["Hi there", "Hello", "Hi", "Hey", "Wassup", "What's popping!"],
+        "responses": ["Hello!", "Hey!", "Hi!"]
+    },
+    {"tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Until next time"],
+        "responses": ["It was nice talking with you!", "Bye!", "Goodbye!"]
+    },
+    {"tag": "help",
+        "patterns": ["I need some help", "Can you help me?"],
+        "responses": ["Do you need some help? Please explain what you need"]
+    },
+    {"tag": "thanks",
+        "patterns": ["Thank you", "Thanks", "Thanks a lot", "That's helpful", "You're amazing"],
+        "responses": ["Anytime!", "No worries.", "All good!"]
+    },
+    {"tag": "noanswer",
+        "patterns": [""],
+        "responses": ["Please give me more info.", "Sorry, I cannot understand you"]
+    }
+]
+}
