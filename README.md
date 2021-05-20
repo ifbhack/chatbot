@@ -9,6 +9,9 @@ The JSON file should be formatted like this to add new content:
         "patterns": [TYPES OF INPUTS],
         "responses": [BOT ANSWERS]
     },
+```
+Sample:
+```json
     {"tag": "goodbye",
         "patterns": ["Bye", "See you later", "Goodbye", "Until next time"],
         "responses": ["It was nice talking with you!", "Bye!", "Goodbye!"]
