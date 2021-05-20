@@ -3,7 +3,7 @@ A lot of this code was sourced from https://towardsdatascience.com/how-to-create
 
 # JSON
 The JSON file should be formatted like this to add new content:
-'''json
+```json
 {"intents": [
     {"tag": "NAME OF THE CATEGORY OF RESPONSE",
         "patterns": [TYPES OF INPUTS],
@@ -12,4 +12,4 @@ The JSON file should be formatted like this to add new content:
     {"tag": "goodbye",
         "patterns": ["Bye", "See you later", "Goodbye", "Until next time"],
         "responses": ["It was nice talking with you!", "Bye!", "Goodbye!"]
-'''
+```
