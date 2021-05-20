@@ -1,5 +1,7 @@
 # IMPORTANT
-A lot of this code was sourced from https://towardsdatascience.com/how-to-create-a-chatbot-with-python-deep-learning-in-less-than-an-hour-56a063bdfc44 to understand how to implement the AI.
+A lot of the code to create the model was sourced from [this video](https://www.youtube.com/watch?v=1lwddP0KUEg) and the website below:
+https://towardsdatascience.com/how-to-create-a-chatbot-with-python-deep-learning-in-less-than-an-hour-56a063bdfc44 
+
 
 ## JSON
 The JSON file should be formatted like this to add new content:
